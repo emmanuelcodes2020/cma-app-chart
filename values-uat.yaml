@@ -1,0 +1,13 @@
+applicationName: cma-app
+
+
+namespace: cma-app-uat
+
+image:
+  # name: 796347764150.dkr.ecr.eu-west-2.amazonaws.com/cma-service/cma-app
+  tag: "1.0"
+
+
+cmaservice: cma-app-service
+serviceingress:  cma-ingress-service
+cma-app-baseURL : cma-app-uat.globalfrontierlink.co.uk
